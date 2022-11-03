@@ -9,7 +9,10 @@ const enviarFormulario = () => {
     //
 }
 evento.addEventListener('click', enviarFormulario)
-
+let botonWspp = document.querySelector('#botonWspp');
+botonWspp.addEventListener('click', function () {
+        location.href = "https://wa.me/?text=https://bit.ly/3f2nzZI"
+});
 
 //Compartir
 const shareBtn = document.getElementById('shareBtn')
@@ -91,13 +94,16 @@ let boton = document.querySelector('#boton');
 boton.addEventListener('click', function () {
         location.href = "https://drive.google.com/drive/folders/1WgSheC4TvYEdPpfbPbZKICdkFXqPRP1f?usp=share_link"
 });
+
+
+
 //ventana descargar todo
 function modal_08() {
     Swal.fire({
         html: '<div class="mensaje-2">' +
         '<h3 class="bm-4">Black Momets</h3>' +
         '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos</b>, Procura tener espacio en el dispositivo, Se descargara todo en formato rar o zip, eso lo podes encontar en la Play store o app store </p>' +
-        '<a href="https://drive.google.com/uc?id=1QvDoRh_Jx-AHDlnLJUXyD1suAxp9RXCA&export=download" target="_blank"><button class="bt-msj" >Si, Descargar Todo <i class="fa-solid fa-download blu"></button></a>' +
+        '<a href="https://www.mediafire.com/file/aoypndnm4vgfers/fotos.rar/file" target="_blank"><button class="bt-msj" >Si, Descargar Todo <i class="fa-solid fa-download blu"></button></a>' +
         '</div>',
         //tamaño
         imageWidth: 400,

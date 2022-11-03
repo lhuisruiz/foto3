@@ -27,6 +27,11 @@
     justify-content: center;
     cursor: pointer;
     border: none;
+    transition: .4s ease;
+}
+.bt-msj:hover{
+    border-radius: 20px;
+    transition: .4s ease;
 }
 
 .mensaje-2 {
@@ -500,23 +505,21 @@ p {
 }
 
 .subs-send {
-    width: 80%;
+    width: 45%;
     padding: 10px;
     border: none;
     background: var(--second-color);
     color: var(--main-color);
-    font-size: 18px;
+    font-size: 13px;
+    margin: 5px;
 
     margin-top: 20px;
     margin-bottom: 20px;
-    transition: .25s ease background;
-    border-radius: 20px;
+    transition: .25s ease ;
+    border-radius: 3px;
 }
-
-.subs-send:hover {
-    background-color: #000000;
-    color: #fff;
-    border-color: 1px #fff;
+.subs-send:hover{
+    border-radius: 14px;
 }
 
 .line {
@@ -657,6 +660,7 @@ p {
     font-weight: 400;
     font-size: 15px;
     font-family: 'open sans';
+    transition: .4s ease;
 }
 
 
@@ -671,6 +675,7 @@ p {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    transition: .4s ease;
 }
 
 
@@ -686,8 +691,9 @@ p {
     display: flex;
     justify-content: space-between;
 
-    animation: parpadeo 2s linear infinite;
-    transition: .1s ease;
+    animation: parpadeo 4s linear infinite;
+    transition: .4s ease;
+    
 }
 .info-publicasion-img:hover{
     border-radius: 20px;
