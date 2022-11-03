@@ -97,7 +97,7 @@ function modal_08() {
         html: '<div class="mensaje-2">' +
         '<h3 class="bm-4">Black Momets</h3>' +
         '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos</b>, Procura tener espacio en el dispositivo, Se descargara todo en formato rar o zip, eso lo podes encontar en la Play store o app store </p>' +
-        '<a href="https://drive.google.com/uc?id=1I2LdBY9iDTbEdFfHdoDkHeRnaRUQF10J&export=download" target="_blank"><button class="bt-msj" >Si, Descargar Todo <i class="fa-solid fa-download blu"></button></a>' +
+        '<a href="https://drive.google.com/uc?id=1QvDoRh_Jx-AHDlnLJUXyD1suAxp9RXCA&export=download" target="_blank"><button class="bt-msj" >Si, Descargar Todo <i class="fa-solid fa-download blu"></button></a>' +
         '</div>',
         //tamaño
         imageWidth: 400,
