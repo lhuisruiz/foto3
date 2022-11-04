@@ -36,7 +36,7 @@ shareBtn.addEventListener('click', event => {
 //Numero de pagina
 function modal_09() {
     Swal.fire({
-        html: '<h3 class="bm">ivan zarate cumple 14 Foto2</h3>',
+        html: ' <a href="https://www.mediafire.com/folder/j8r8mfnlzvoqg/Camera"><h3 class="bm">Facu foto3</h3></a>',
         //tamaño
         imageWidth: 300,
         imageHeight: 300,
@@ -102,7 +102,7 @@ function modal_08() {
     Swal.fire({
         html: '<div class="mensaje-2">' +
         '<h3 class="bm-4">Black Momets</h3>' +
-        '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos (PJG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
+        '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
         //mediafire jpg
         '<a href="https://www.mediafire.com/file/duzqcghg0m8yao8/jpg.rar/file" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>'+
         //mediafire Raw
