@@ -102,10 +102,11 @@ function modal_08() {
     Swal.fire({
         html: '<div class="mensaje-2">' +
         '<h3 class="bm-4">Black Momets</h3>' +
-        '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos</b>, Procura tener espacio en el dispositivo, Se descargara todo en formato rar o zip, eso lo podes encontar en la Play store o app store </p>' +
-        '<a href="https://www.mediafire.com/file/aoypndnm4vgfers/fotos.rar/file" target="_blank"><button class="bt-msj" >Si, Descargar Todo <i class="fa-solid fa-download blu"></button></a>' +
-        '</div>',
-        //tamaño
+        '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos (PJG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
+        //mediafire jpg
+        '<a href="https://www.mediafire.com/file/duzqcghg0m8yao8/jpg.rar/file" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>'+
+        //mediafire Raw
+        '<a href="https://www.mediafire.com/file/duzqcghg0m8yao8/jpg.rar/file" target="_blank"><button class="bt-msj" > Descargar RAW <i class="fa-solid fa-download blu"></i></button></a>',
         imageWidth: 400,
         imageHeight: 500,
         //cerrar
