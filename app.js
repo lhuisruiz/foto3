@@ -104,9 +104,9 @@ function modal_08() {
         '<h3 class="bm-4">Black Momets</h3>' +
         '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
         //mediafire jpg
-        '<a href="https://www.mediafire.com/file/duzqcghg0m8yao8/jpg.rar/file" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>'+
+        '<a href="https://www.mediafire.com/folder/tzzvz1zxoy3c8/jpg" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>'+
         //mediafire Raw
-        '<a href="https://www.mediafire.com/file/duzqcghg0m8yao8/jpg.rar/file" target="_blank"><button class="bt-msj" > Descargar RAW <i class="fa-solid fa-download blu"></i></button></a>',
+        '<a href="https://www.mediafire.com/folder/7teve6hnogqds/raw" target="_blank"><button class="bt-msj" > Descargar RAW <i class="fa-solid fa-download blu"></i></button></a>',
         imageWidth: 400,
         imageHeight: 500,
         //cerrar

@@ -29,7 +29,8 @@
     border: none;
     transition: .4s ease;
 }
-.bt-msj:hover{
+
+.bt-msj:hover {
     border-radius: 20px;
     transition: .4s ease;
 }
@@ -90,15 +91,16 @@
         color: rgba(0, 0, 0, 0.897);
         font-size: 15px;
         margin: 10px;
-  
+
     }
 }
 
-.img-misfotos{
+.img-misfotos {
     width: 300px;
-    border-radius: 10px;      
+    border-radius: 10px;
     margin: 10px;
 }
+
 :root {
     --main-color: #000000;
     --main-modal-color: rgba(206, 12, 86, 0.555);
@@ -215,7 +217,8 @@ header .textos-header {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-.ico-3:hover{
+
+.ico-3:hover {
     color: #332863;
     transition: .3s ease;
 
@@ -240,6 +243,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-family: 'open sans';
     font-weight: 100;
+    cursor: pointer;
 }
 
 .wave {
@@ -515,10 +519,11 @@ p {
 
     margin-top: 20px;
     margin-bottom: 20px;
-    transition: .25s ease ;
+    transition: .25s ease;
     border-radius: 3px;
 }
-.subs-send:hover{
+
+.subs-send:hover {
     border-radius: 14px;
 }
 
@@ -616,6 +621,7 @@ p {
     background-color: #000;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .contenido-anun {
@@ -661,6 +667,7 @@ p {
     font-size: 15px;
     font-family: 'open sans';
     transition: .4s ease;
+    cursor: pointer;
 }
 
 
@@ -670,7 +677,7 @@ p {
     font-size: 20px;
     font-weight: 100;
     background-color: var(--second-color);
-    padding: 5px 18px 5px  18px;
+    padding: 5px 18px 5px 18px;
     border-radius: 2px;
     text-decoration: none;
     display: flex;
@@ -685,7 +692,7 @@ p {
     font-size: 20px;
     font-weight: 100;
     background-color: var(--second-color);
-    padding: 5px 18px 5px  18px;
+    padding: 5px 18px 5px 18px;
     border-radius: 2px;
     text-decoration: none;
     display: flex;
@@ -693,17 +700,20 @@ p {
 
     animation: parpadeo 4s linear infinite;
     transition: .4s ease;
-    
+
 }
-.info-publicasion-img:hover{
+
+.info-publicasion-img:hover {
     border-radius: 20px;
     transition: .4s ease;
 }
-.blu:hover{
+
+.blu:hover {
     color: rgb(86, 19, 255);
 }
+
 .bt:hover {
-    padding: 5px 18px 5px  18px;
+    padding: 5px 18px 5px 18px;
     border-radius: 15px;
     animation: parpadeo 3s linear infinite;
     transition: .3s ease;
@@ -716,7 +726,7 @@ p {
     font-weight: 100;
     color: #000;
     background-color: var(--second-color);
-    padding: 5px 18px 5px  18px;
+    padding: 5px 18px 5px 18px;
     border-radius: 2px;
     text-decoration: none;
     display: flex;
@@ -727,28 +737,33 @@ p {
 }
 
 .bt-3:hover {
-    padding: 5px 18px 5px  18px;
+    padding: 5px 18px 5px 18px;
     border-radius: 15px;
     animation: parpadeo 3s linear infinite;
     transition: .3s ease;
 }
+
 .bt-2:hover {
-    padding: 5px 18px 5px  18px;
+    padding: 5px 18px 5px 18px;
     border-radius: 15px;
     transition: .3s ease;
 }
-.boton:hover{
+
+.boton:hover {
     color: #332863;
 }
-.info-publicasion-btn:hover{
+
+.info-publicasion-btn:hover {
     border-radius: 15px;
     transition: .3s ease;
 }
-.bt-game:hover{
+
+.bt-game:hover {
     border-radius: 15px;
     transition: .3s ease;
 }
-.perfil:hover{
+
+.perfil:hover {
     border: 3px solid #332863;
     transition: .4s ease;
 }
@@ -774,26 +789,29 @@ p {
 }
 
 .container-game {
-    width: 100%;
+    width: 400px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: rgb(0, 0, 0);
+    margin: 10px;
 }
 
 .game-caja {
-    width: 30%;
+    width: 300px;
     height: auto;
     background-color: var(--second-color);
     border-radius: 5PX;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 5px;
-
+    transition: .4s ease;
+}
+.game-caja:hover{
+    border-radius: 20px;
+    transition: .4s ease;
 }
 
 .bt-game {
@@ -823,13 +841,13 @@ p {
 }
 
 .info-publicasion {
-    width: 100%;
+    width: 400px;
     height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin: 20px;
     background: var(--main-color);
 }
 
@@ -946,3 +964,29 @@ p {
 */
 
 /*Cargando*/
+.container-contenido-v-p {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 250px;
+    margin: 30px;
+    border-radius: 3px;
+    transition: .3s ease;
+}
+
+.video:hover {
+    border-radius: 20px;
+    transition: .3s ease;
+}
+
+.container-video {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
